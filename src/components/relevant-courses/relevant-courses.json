@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_relevant_courses_relevant_courses",
+  "info": {
+    "displayName": "relevantCourses",
+    "icon": "file"
+  },
+  "options": {},
+  "attributes": {
+    "courseName": {
+      "type": "string"
+    },
+    "institution": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

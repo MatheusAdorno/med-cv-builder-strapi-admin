@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_extracurricular_activities_extracurricular_activities",
+  "info": {
+    "displayName": "extracurricularActivities",
+    "icon": "earth",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "activity": {
+      "type": "string"
+    },
+    "organization": {
+      "type": "string"
+    },
+    "startDate": {
+      "type": "string"
+    },
+    "endDate": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

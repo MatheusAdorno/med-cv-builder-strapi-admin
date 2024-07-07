@@ -1,0 +1,80 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_curricula",
+  "info": {
+    "singularName": "user-curriculum",
+    "pluralName": "user-curricula",
+    "displayName": "UserCurriculum",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "curriculumId": {
+      "type": "string"
+    },
+    "userEmail": {
+      "type": "email"
+    },
+    "userName": {
+      "type": "string"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "professionalTitle": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "workExperience": {
+      "type": "component",
+      "repeatable": true,
+      "component": "work-experience.work-experience"
+    },
+    "researchExperience": {
+      "type": "component",
+      "repeatable": true,
+      "component": "research-experience.research-experience"
+    },
+    "education": {
+      "type": "component",
+      "repeatable": true,
+      "component": "education.education"
+    },
+    "extracurricularActivities": {
+      "type": "component",
+      "repeatable": true,
+      "component": "extracurricular-activities.extracurricular-activities"
+    },
+    "skills": {
+      "type": "component",
+      "repeatable": true,
+      "component": "skills.skills"
+    },
+    "relevantCourses": {
+      "type": "component",
+      "repeatable": true,
+      "component": "relevant-courses.relevant-courses"
+    },
+    "themeColor": {
+      "type": "string"
+    }
+  }
+}
